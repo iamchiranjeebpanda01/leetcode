@@ -10,6 +10,7 @@ function twoSum(nums: number[], target: number): number[] {
         while(y <= nums.length-1){
             if(nums[x]+nums[y] === target){
                 returnVal = [x,y];
+                break;
             }
             else{
                 y++;
